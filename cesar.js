@@ -17,7 +17,7 @@ $(document).ready(() => {
 
             if (indice != -1) {
                 var nuevoIndice = (indice + desplazamiento) % abecedario.length;
-                var nuevaLetra = (abecedario[nuevoIndice]);
+                var nuevaLetra = abecedario[nuevoIndice];
                 cifrado += nuevaLetra;
             } else {
                 cifrado += letra;
